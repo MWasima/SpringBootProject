@@ -1,0 +1,55 @@
+Customer-focused Microservice Project:
+
+---
+
+### ✅ **What is a Simple Microservice Project?**
+
+A **Simple Microservice Project** is a small, beginner-friendly software system made of **independent mini-applications** (called microservices) that work together to perform a bigger task.
+
+Each microservice:
+- ✅ Does **one job only** (e.g., manage customers, process orders, handle payments)
+- ✅ Can be built, tested, and deployed **independently**
+- ✅ Communicates with other services using **APIs (usually REST)**
+
+---
+
+### 🎯 **Example: Customer Order Management System**
+You split the system like this:
+
+| Microservice        | What it handles                          | Port |
+|---------------------|------------------------------------------|------|
+| Customer Service     | Manages customer info (name, email)     | 8081 |
+| Order Service        | Manages customer orders (items, price)  | 8082 |
+| Payment Service      | Handles payment processing               | 8083 |
+
+They **talk to each other via HTTP** instead of being one big app.
+
+---
+
+### 💡 Why Microservices Instead of One App?
+- Easier to **maintain**
+- Can use **different languages or tech** for each service
+- Scales better
+- If one fails, **others still work**
+
+---
+
+### 🛠️ Technologies Used (Simple Stack):
+- Java + Spring Boot (or Node.js, Python, etc.)
+- REST APIs
+- H2/MySQL for databases
+- Postman to test
+- Eureka, Feign, or Gateway (optional for big systems)
+
+---
+
+### 💬 In Simple Words:
+> “A simple microservice project is like building mini-apps that each do a small task — like handling customers, orders, or payments — and they talk to each other using APIs.”
+
+---
+
+Let me know if you'd like:
+- A diagram showing how the services connect
+- Code for the Customer Service
+- Or help deploying them in a local environment
+
